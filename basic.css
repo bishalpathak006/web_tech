@@ -1,0 +1,91 @@
+
+    .nav_bar{
+        background-color: rgba(228, 241, 215, 0.849);
+        padding:10px;
+    }
+    .nav_bar a{
+        margin-left: 30px;
+        text-decoration: none;
+    }
+    .nav_bar a:hover{
+        color: crimson;
+    }
+.search_box{
+    text-align:center;
+    margin-left: 200px;
+}
+.slider{
+    height: 400px;
+    width: 100%;
+    color: rgb(204, 237, 230);
+}
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 30px 40px 15px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-about,
+.footer-links {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.footer-about p {
+    color: #d1d5db;
+    line-height: 1.6;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #d1d5db;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid #4b5563;
+    margin-top: 25px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #d1d5db;
+    font-size: 14px;
+}
+.phones {
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.phones img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
